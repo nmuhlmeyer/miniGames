@@ -11,7 +11,15 @@ config_version=4
 [application]
 
 config/name="miniGames"
-config/icon="res://icon.png"
+config/icon="res://images/icon.png"
+
+[display]
+
+window/size/width=256
+window/size/height=224
+window/size/test_width=512
+window/size/test_height=448
+window/stretch/mode="2d"
 
 [physics]
 
